@@ -1,0 +1,10 @@
+#!/bin/bash
+
+rm -rf Gtxt
+g++ GTxt.cpp -I /usr/include/mysql/ /usr/lib/x86_64-linux-gnu/libmysqlclient.so -o Gtxt
+
+mv Gtxt /var/www/cooperativa-electron/system/repository/grupo/src/
+
+chmod 777 /var/www/cooperativa-electron/system/repository/grupo/src/Gtxt
+
+echo Proceso exitoso...
