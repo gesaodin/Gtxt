@@ -3,6 +3,7 @@
  *
  *  Creado Por: Carlos Enrique Peña Albarran
  *  Fecha: 24/03/2013
+ *  Actualización 16/03/2015
  */
 
 class MBanco {
